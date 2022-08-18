@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(131, 131, 231);
+    font: normal 18px arial;
+}
+header {
+    color: white;
+}
+
+section {
+    margin: 20px;
+    padding:30px;
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.559);
+}
+
+#flista {
+    width: 150px;
+}
+footer {
+    text-align: center;
+    font: italic 16px arial;
+    color: white;
+}
